@@ -6,8 +6,8 @@ Here is a project of RGB-D Saliency Object Detection, we will share the most com
 
 ## 目录
 * [Datasets](#Datasets)
-* [Evaluation tools](#Evaluation tools)
-* [Pre-trained tools](#Pre-trained tools)
+* [Evaluation_tools](#Evaluation_tools)
+* [Pre-trained_tools](#Pre-trained_tools)
 ****
 
 ### Datasets
@@ -35,11 +35,11 @@ There are eight mainstream RGB-D saliency datasets:
 
 ****
 
-### Evaluation tools
+### Evaluation_tools
 
 ****
 
-### Pre-trained tools
+### Pre-trained_tools
 将网络生成的sal maps放到evaluation_tool文件夹下，运行calculate metrics即可计算评价指标
 
 ****
