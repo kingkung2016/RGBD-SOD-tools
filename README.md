@@ -36,7 +36,7 @@ There are eight mainstream RGB-D saliency datasets:
 
 ### Evaluation_tools
 - Put the test datasets and sal maps of other papers into the './evaluation_tool/' folder.
-- Modify the 'salmap-root' and 'test_data', then run `calculate_metrics.py`.
+- Modify the 'salmap-root' and 'test_data', then run `/evaluation_tool/calculate_metrics.py`.
 - Tips: The name of test dataset and sal maps shoule be the same.
 ****
 
