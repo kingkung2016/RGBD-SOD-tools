@@ -41,6 +41,6 @@ There are eight mainstream RGB-D saliency datasets:
 ****
 
 ### Pre-trained_tools
-将网络生成的sal maps放到evaluation_tool文件夹下，运行calculate metrics即可计算评价指标
-
+- Run `depth_inverse.py`, you can inverse the black and white pixels of depth images.
+- Run `sal_to_edge.py` to generate edge maps from the ground truth of mask.
 ****
