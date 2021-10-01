@@ -32,11 +32,12 @@ There are eight mainstream RGB-D saliency datasets:
 - More importantly, all datasets we provided satisfy the rule that closer objects present lower depth values (are "black"), while further objects have higher depth values (are "white"). Although these depth maps are normalized into the range (0~1), such a rule is enforced to meet physical common sense. We observed that the model performance would somewhat degrade when using reversed maps during testing. So be aware of this issue when testing the models. 
 
 ##### Tips: All data is resized to 256×256 pixels.
-
 ****
 
 ### Evaluation_tools
-
+- Put the test datasets and sal maps of other papers into the './evaluation_tool/' folder.
+- Modify the 'salmap-root' and 'test_data', then run `calculate_metrics.py`.
+- Tips: The name of test dataset and sal maps shoule be the same.
 ****
 
 ### Pre-trained_tools
