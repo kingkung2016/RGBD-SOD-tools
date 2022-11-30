@@ -39,6 +39,7 @@ There are eight mainstream RGB-D saliency datasets:
 ****
 
 ### Pre-trained_tools
+- Tips: some datasets satisfy the rule that closer objects present lower depth values (are "black"), while further objects have higher depth values (are "white").   Although these depth maps are normalized into the range (0~1), such a rule is enforced to meet physical common sense. We provide the tools to inverse the black and white pixels of depth images.
 - Run `depth_inverse.py`, you can inverse the black and white pixels of depth images.
 - Run `sal_to_edge.py` to generate edge maps from the ground truth of mask.
 ****
