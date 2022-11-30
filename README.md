@@ -21,11 +21,11 @@ There are eight mainstream RGB-D saliency datasets:
 - Tips: The authors of STEREO dataset published 1000 samples initially, but they updated them to 797 samples subsequently.
 
 #### There are two generally accepted settings of training datasets:
-- Training dataset 1, including NJUD(1485) and NLPR(700), [fetch code is 2185](https://pan.baidu.com/s/17ro6p_0M78El6xpS8Z0wnA).
-- Training dataset 2, including NJUD(1485) and NLPR(700), DUT-RGBD(800), [fetch code is 2985](https://pan.baidu.com/s/1A3U3KsaO4RzCeQArEiy1kA).
+- Training dataset 1, including NJUD(1485) and NLPR(700), [fetch code is 2185](https://pan.baidu.com/s/1FA9bgPNO9hEoeMO20eKM1w).
+- Training dataset 2, including NJUD(1485) and NLPR(700), DUT-RGBD(800), [fetch code is 2985](https://pan.baidu.com/s/1YckC28t3GsNz7y774i87Kg).
 
 #### The remaining samples in the above mentioned datasets are used for test:
-- All test datasets, [fetch code is test](https://pan.baidu.com/s/1Lgd206z8rXrO0biQNVk9LA).
+- All test datasets, [fetch code is test](https://pan.baidu.com/s/1ysweJ776homYj9_M2uv-_w).
 - We use 300 samples of NLPR, 400 samples of DUT-RGBD for test.
 - We provide two versions of the STEREO dataset(797/1000) for test.
 
